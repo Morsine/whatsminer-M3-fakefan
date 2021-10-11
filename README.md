@@ -4,10 +4,13 @@ This script emulates fan speed values for cgminer and system (all that reading s
 # Installation
 As a zero step you need to be able to edit system files, if you never run `mount -o remount,rw /` command, you should do this. That makes you able to write to ASIC filesystem, by default it is read only.
 
-## As an init.d script
+## Fake Fan Installation
 1. Copy **fake_fan_initd** from repo to the ASIC filesystem to `/etc/init.d/` directory using `scp` (for example `scp fake_fan_initd 192.168.1.120:/etc/init.d/fakefan`).
 2. Run `chmod +x /etc/init.d/fakefan`.
 3. Enable service `/etc/init.d/fakefan enable`. Script will start automatically after each boot.
+
+## Required system modification
+To be filled later
 
 ## Note
 With this emulation intake and outtake (both), fans can be disconnected, there's no any checks that fans are installed, only cgminer will check the speeds of fans and prevent miner from starting without working fans.
