@@ -1,6 +1,9 @@
 # Whatsminer Fake Fan
 This script emulates fan speed values for cgminer and system (all that reading speed by /sys/class/fanspeed/ path)
 
+# Root Permission
+By default, the system doesn't give you root permission, however you'll need root permission in order to install this script
+
 # Installation
 As a zero step you need to be able to edit system files, if you never run `mount -o remount,rw /` command, you should do this. That makes you able to write to ASIC filesystem, by default it is read only.
 
