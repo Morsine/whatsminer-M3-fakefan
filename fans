@@ -1,3 +1,4 @@
+# this is a system file containing fan speed values to be used by the cgminer
 config common 'common'
     option count        '2'
 
