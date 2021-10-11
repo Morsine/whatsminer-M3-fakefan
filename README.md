@@ -22,4 +22,7 @@ That basically will add `exec /etc/fake_fan.sh` to the end of `boot() {` functio
 ## Note
 With this emulation intake and outtake (both), fans can be disconnected, there's no any checks that fans are installed, only cgminer will check the speeds of fans and prevent miner from starting without working fans.
 
+## Disclaimer
+I'm not responsible for anything, You're doing this at your own risk. If you used my code and instructions and come to me telling me you ended up bruning down your home, I'll point my fingure at you and laugh.
+
 Feel free to contact me through issues.
