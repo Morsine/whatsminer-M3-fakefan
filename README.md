@@ -13,7 +13,7 @@ As a zero step you need to be able to edit system files, if you never run `mount
 3. Enable service `/etc/init.d/fakefan enable`. Script will start automatically after each boot.
 
 ## Required system modification
-To be filled later
+Please replace the file under /etc/config/fans with the file in the repository.
 
 ## Note
 With this emulation intake and outtake (both), fans can be disconnected, there's no any checks that fans are installed, only cgminer will check the speeds of fans and prevent miner from starting without working fans.
